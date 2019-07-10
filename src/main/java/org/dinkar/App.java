@@ -1,5 +1,7 @@
 package org.dinkar;
 
+import org.dinkar.exercise.chunk.chunk;
+import org.dinkar.exercise.maxchar.maxchar;
 import org.dinkar.exercise.palindrome.palindrome;
 import org.dinkar.exercise.reverseint.reverseint;
 import org.dinkar.exercise.reversestring.reversestring;
@@ -52,6 +54,14 @@ public class App
         palindrome.cheackPalindrome("abc");
         palindrome.cheackPalindrome(" aba ");
         System.out.println("===Find palindrome using compare value  ===");
+
+
+        maxchar maxchar = new maxchar();
+        maxchar.findMaxChar("aaadddd");
+
+        chunk chunk = new chunk();
+        int arr[] = {1,2,3,4,5};
+        chunk.chunked(arr, 2);
 
     }
 }
